@@ -1,0 +1,83 @@
+
+/****** Tipos de letra ******/
+.titulo {
+    font-family: "Almarai";
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.subtitulo {
+    font-family: "Almarai";
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.normal {
+    font-family: "Almarai";
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.descripcion {
+    font-family: "Almarai";
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+}
+
+/****** Header ******/
+header{
+    background: #00AAFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+/****** Mis cuentas ******/
+.mis_cuentas {
+    background: #D3D3D3;
+    padding: 20px 0px;
+}
+
+.cuentas{
+    display: flex;
+    justify-content: space-around;
+}
+
+/****** Mis categorias ******/
+.mis_categorias {
+    margin: 20px 0px;
+}
+
+.fecha{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.fecha p{
+    margin-right: 15px;
+}
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/****** Tarjetas ******/
+.border-degraded {
+    border: 1px solid #7f63f1 !important;
+    border-top: 0px !important;
+    border-left: solid #3b89ff !important;
+    border-bottom: solid #5e76f8 !important;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+  }
+
+.main-color-degraded {
+    background: rgb(59,137,255);
+    background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%);
+}
