@@ -1,36 +1,47 @@
+* {
+    font-family: "Almarai";
+    font-weight: 700;
+    margin: 0px;
+    font-size: 16px;
+    color: black;
+}
 
 /****** Tipos de letra ******/
 .titulo {
     font-family: "Almarai";
     font-weight: 700;
+    margin: 0px;
     font-size: 32px;
-    color: black;
+    color: white;
 }
 
 .subtitulo {
     font-family: "Almarai";
-    font-weight: 400;
+    font-weight: 700;
     font-size: 24px;
-    color: black;
+    color: #5e76f8;
 }
 
 .normal {
     font-family: "Almarai";
-    font-weight: 400;
+    font-weight: 700;
+    margin: 0px;
     font-size: 16px;
-    color: black;
+    color: white;
 }
 
 .descripcion {
     font-family: "Almarai";
     font-weight: 300;
+    margin: 0px;
     font-size: 12px;
-    color: black;
+    color: white;
 }
 
 /****** Header ******/
 header{
-    background: #00AAFF;
+    background: rgb(59,137,255);
+    background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +50,7 @@ header{
 
 /****** Mis cuentas ******/
 .mis_cuentas {
-    background: #D3D3D3;
+    margin: 20px;
     padding: 20px 0px;
 }
 
@@ -51,6 +62,7 @@ header{
 /****** Mis categorias ******/
 .mis_categorias {
     margin: 20px 0px;
+    padding: 20px;
 }
 
 .fecha{
@@ -68,6 +80,15 @@ header{
     margin: 20px;
 }
 
+.blue-border {
+    border: 1px solid #3b89ff !important;
+    border-radius: 0rem 0rem 0.3rem 0.3rem;
+  }
+
+.blue-color {
+    background: #3b89ff
+}
+
 /****** Tarjetas ******/
 .border-degraded {
     border: 1px solid #7f63f1 !important;
@@ -80,4 +101,14 @@ header{
 .main-color-degraded {
     background: rgb(59,137,255);
     background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%);
+}
+
+.button-account {
+    border-radius: 50%;
+    padding: 0.60rem;
+    width: auto;
+}
+
+.button-account:hover {
+    background: #D9D9D9;
 }
