@@ -92,7 +92,7 @@ header{
   }
 
 .main-color-degraded {
-    background: rgb(59,137,255);
+    background: rgb(59, 137, 255);
     background: linear-gradient(90deg, rgba(59,137,255,1) 31%, rgba(127,99,241,1) 76%);
 }
 
