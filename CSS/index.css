@@ -16,7 +16,7 @@ body{
     font-weight: 700;
     margin: 0px;
     font-size: 32px;
-    color: white;
+    color: #FFF;
 }
 
 .subtitulo {
@@ -31,7 +31,7 @@ body{
     font-weight: 700;
     margin: 0px;
     font-size: 16px;
-    color: white;
+    color: #FFF;
 }
 
 .descripcion {
@@ -39,7 +39,7 @@ body{
     font-weight: 300;
     margin: 0px;
     font-size: 12px;
-    color: white;
+    color: #FFF;
 }
 
 /****** Header ******/
@@ -51,19 +51,6 @@ header{
     align-items: center;
     font-size: 2rem;
 }
-
-/****** Mis cuentas ******/
-/*
-.mis_cuentas {
-    margin: 20px;
-    padding: 20px 0px;
-}
-
-.cuentas{
-    display: flex;
-    justify-content: space-around;
-}
-*/
 
 /****** Mis categorias ******/
 .mis_categorias {

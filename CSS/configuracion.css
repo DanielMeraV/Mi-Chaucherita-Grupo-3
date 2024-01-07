@@ -1,0 +1,28 @@
+main{
+    max-width: 80rem;
+}
+
+.configuracion{
+    align-items: center;
+    padding: 20px;
+}
+
+.configuracion i{
+    font-size: 3rem;
+    color: #3b89ff;
+}
+
+.boton:hover{
+    background: #3b89ff;
+    color: #FFF;
+}
+.boton:hover i {
+    color: #fff;
+}
+.boton:hover p {
+    color: #fff;
+}
+
+.boton p{
+    margin: 0;
+}
