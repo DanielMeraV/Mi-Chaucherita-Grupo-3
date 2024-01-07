@@ -38,17 +38,6 @@ th {
 	color: white;
 }
 
-.fecha {
-	margin-left: 10px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.fecha p{
-	margin: 0px;
-	margin-right: 5px;
-}
-
 tbody {
 	tr {
 		&:hover {
