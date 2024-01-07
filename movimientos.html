@@ -15,20 +15,24 @@
 </head>
 
 <body>
-  <h2>Movimientos de Banco</h2>
+  <div class="card card-80-percent mt-5">
+    <div class="card-body">
+      <h2 class="subtitulo">Movimientos de Banco</h2>
 
-  <div class="fecha">
-    <p class="h4 ">Fecha: </p>
-    <input type="date">
+      <div class="d-flex flex-column flex-sm-row justify-content-between align-items-sm-end">
+        <div class="col-sm col-lg-3 d-flex flex-sm-row align-items-right justify-content-end">
+          <p class="mr-2 mb-0">Fecha:</p>
+          <input type="month" class="form-control text-right">
+        </div>
+      </div>
+    </div>
   </div>
 
-  
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <div class="table-responsive" data-pattern="priority-columns">
-          <table "
-            class=" table table-bordered table-hover">
+          <table class=" table table-bordered table-hover">
             <thead>
               <tr>
                 <th>Número</th>
@@ -93,23 +97,23 @@
   <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd-table-patterns.js'></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-        // Cambiar el texto del botón de enfoque
-        var focusButton = document.querySelector('.btn-group.focus-btn-group .btn-default');
-        if (focusButton) {
-            focusButton.textContent = 'Enfocar';
-        }
+      // Cambiar el texto del botón de enfoque
+      var focusButton = document.querySelector('.btn-group.focus-btn-group .btn-default');
+      if (focusButton) {
+        focusButton.textContent = 'Enfocar';
+      }
 
-        // Cambiar el texto del botón de mostrar (dentro del grupo desplegable)
-        var dropdownToggle = document.querySelector('.btn-group.dropdown-btn-group .dropdown-toggle');
-        if (dropdownToggle) {
-            dropdownToggle.innerHTML = 'Mostrar <span class="caret"></span>';
-        }
-        var displayAllButton = document.querySelector('.btn-group.dropdown-btn-group .btn.btn-default:not(.dropdown-toggle)');
-        if (displayAllButton) {
-            displayAllButton.textContent = 'Mostrar todo';
-        }
+      // Cambiar el texto del botón de mostrar (dentro del grupo desplegable)
+      var dropdownToggle = document.querySelector('.btn-group.dropdown-btn-group .dropdown-toggle');
+      if (dropdownToggle) {
+        dropdownToggle.innerHTML = 'Mostrar <span class="caret"></span>';
+      }
+      var displayAllButton = document.querySelector('.btn-group.dropdown-btn-group .btn.btn-default:not(.dropdown-toggle)');
+      if (displayAllButton) {
+        displayAllButton.textContent = 'Mostrar todo';
+      }
     });
-</script>
+  </script>
 
 </body>
 
