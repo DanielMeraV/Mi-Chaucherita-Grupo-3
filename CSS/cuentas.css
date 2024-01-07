@@ -10,6 +10,10 @@ body {
 }
 
 .container {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	
 }
 
 table {
@@ -30,16 +34,15 @@ th {
 	text-align: left;
 }
 
-thead {
-	th {
-		background-color: #55608f;
-	}
+.main-color-degraded th {
+	color: white;
 }
 
 .fecha {
+	margin-left: 10px;
 	display: flex;
 	align-items: center;
-    justify-content: right;
+	justify-content: center;
 }
 .fecha p{
 	margin: 0px;
@@ -71,6 +74,10 @@ tbody {
 	}
 }
 
+tbody, tr {
+	border-style: none !important;
+}
+
 h2 {
 	text-align: center;
 	padding: 20px 0;
@@ -91,6 +98,9 @@ h2 {
 table caption {
 	padding: .5em 0;
 }
+.table {
+    --bs-table-bg: initial;
+  }
 
 @media screen and (max-width: 767px) {
 	table caption {
@@ -119,8 +129,14 @@ table caption {
 .icons{
 	font-size: 2.5rem;
 }
-.icons:hover{
+.red-icon{
+	color: #FF0000;
+}
+.blue-icon{
 	color: #3b89ff;
+}
+.icons:hover{
+	color: #7f63f1;
 }
 
 .btn-azul {
@@ -141,5 +157,5 @@ table caption {
 }
 
 .cuenta{
-	margin-top: 10%;
+	margin-top: 5%;
 }
