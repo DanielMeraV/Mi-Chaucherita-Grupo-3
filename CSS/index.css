@@ -110,3 +110,7 @@ header{
     width: 80%;
     margin: auto;
 }
+
+.space-below-form {
+    padding-top: 20px; /* Ajusta el valor según tus necesidades */
+}
