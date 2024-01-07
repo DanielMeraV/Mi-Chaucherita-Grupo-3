@@ -31,3 +31,12 @@
     --bs-btn-disabled-bg: #7f63f1; /* Color personalizado */
     --bs-btn-disabled-border-color: #7f63f1; /* Color personalizado */
 }
+
+.form-control{
+    width: 80%;
+}
+
+.margin-btm0{
+    margin-bottom: 0px;
+}
+

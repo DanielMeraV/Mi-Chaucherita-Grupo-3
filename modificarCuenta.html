@@ -31,30 +31,37 @@
     <main class="container flex-grow-1 d-flex align-items-center justify-content-center">
 
         <div class="card card-80-percent">
-            <div class="card-header">Modificar Cuenta</div>
+
+            <div class="card-header subtitulo">Modificar Cuenta</div>
 
             <div class="card-body">
                 <form action="" method="post">
-                    <!-- Campo para mostrar el total -->
+
+                    <!-- Campo para ID de la cuenta -->
                     <div class="mb-3">
-                        <label for="" class="form-label h4 d-inline-block" >ID de la Cuenta:<p
-                                class="font-weight-bold d-inline-block" style="margin-left: 10px;">456</p> </label>
-                        <span id=""></span>
+                        <label for="" class="form-label h4">ID de la Cuenta:
+                            <span class="font-weight-bold" style="margin-left: 10px; font-size: 25px;">2</span>
+                        </label>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="" class="form-label h4">Nuevo nombre de la Cuenta</label>
-                        <input type="text" class="form-control" name="" id=""
-                            aria-describedby="helpId" placeholder="Ingrese el nuevo nombre de la cuenta"/>
+                    <!-- Contenedor para nuevo nombre de la cuenta -->
+                    <div class="mb-3 row g-3 align-items-center">
+                        <label for="" class="margin-btm0 h4 col-md-4">Nuevo nombre de la Cuenta:</label>
+                        <div class="col-md-8 col-xs-8">
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="Ingrese el nuevo nombre" />
+                        </div>
                     </div>
 
                     <!--Botones-->
-                    <button type="submit" class="btn btn-azul">
-                        Modificar Cuenta
-                    </button>
+                    <div class="col-12 d-flex justify-content-around card-80-percent mt-4">
+                        <button type="submit" class="btn btn-azul">
+                            Modificar Cuenta
+                        </button>
+                        <a name="" id="" class="btn btn-violetaOscuro" href="" role="button">Regresar</a>
+                    </div>
 
-                    <a name="" id="" class="btn btn-violetaOscuro" href="" role="button">Regresar</a>
-                </form>
+                </form>               
             </div>
 
         </div>
