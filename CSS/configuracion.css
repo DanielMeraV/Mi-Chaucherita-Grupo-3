@@ -2,6 +2,11 @@ main{
     max-width: 80rem;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 .configuracion{
     align-items: center;
     padding: 20px;
@@ -22,7 +27,18 @@ main{
 .boton:hover p {
     color: #fff;
 }
+.return:hover i {
+    color: #7f63f1;
+}
+.return:hover p {
+    color: #7f63f1;
+}
 
 .boton p{
     margin: 0;
 }
+
+.blue-border-radius {
+    border: 1px solid #3b89ff !important;
+    border-radius: 0.3rem;
+  }
