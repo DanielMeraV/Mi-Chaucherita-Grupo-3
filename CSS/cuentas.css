@@ -145,6 +145,10 @@ table caption {
     --bs-btn-disabled-border-color: #3b89ff; /* Color personalizado */
 }
 
+.white-text:hover a{
+	color: #fff;
+}
+
 .cuenta{
 	margin-top: 5%;
 }
