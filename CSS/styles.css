@@ -50,7 +50,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 2rem;
 }
 
 /****** Mis categorias ******/
@@ -67,7 +66,7 @@ header{
 
 .blue-border {
     border: 1px solid #3b89ff !important;
-    border-radius: 0rem 0rem 0.3rem 0.3rem;
+    border-radius: 0px 0px 4.8px 4.8px;
   }
 
 .blue-color {
@@ -81,7 +80,7 @@ header{
     border-left: solid #3b89ff !important;
     border-bottom: solid #5e76f8 !important;
     border-right: solid #5e76f8 !important;
-    border-radius: 0rem 0rem 0.3rem 0.3rem;
+    border-radius: 0px 0px 4.8px 4.8px;
   }
 
 .main-color-degraded {
@@ -91,7 +90,7 @@ header{
 
 .button-account {
     border-radius: 50%;
-    padding: 0.60rem;
+    padding: 9.6px;
     width: auto;
 }
 
@@ -115,15 +114,16 @@ header{
 }
 
 .configuracion i{
-    font-size: 3rem;
+    font-size: 48px;
     color: #3b89ff;
 }
 
 /********** Tablas **********/
 table {
-	font-size: 1rem;
+	font-size: 16px;
     background: #fff;
     border-collapse: collapse;
+    border-radius: 0px 0px 4px 4px;;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -166,7 +166,7 @@ tbody, tr {
 
 /********** Botones/íconos **********/
 .return i{
-    font-size: 3rem;
+    font-size: 48px;
     color: #3b89ff;
 }
 .return:hover i {
@@ -176,7 +176,7 @@ tbody, tr {
     color: #7f63f1;
 }
 .icons{
-	font-size: 1rem;
+	font-size: 16px;
 }
 .red-icon{
 	color: #FF0000;
@@ -255,7 +255,7 @@ tbody, tr {
 
 .blue-border-radius {
     border: 1px solid #3b89ff !important;
-    border-radius: 0.3rem;
+    border-radius: 4.8px;
 } 
 
 
