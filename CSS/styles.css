@@ -176,7 +176,7 @@ tbody, tr {
     color: #7f63f1;
 }
 .icons{
-	font-size: 1rem;
+	font-size: 1.75rem;
 }
 .red-icon{
 	color: #FF0000;
@@ -260,9 +260,6 @@ tbody, tr {
 
 
 /********** Inputs **********/
-.form-control{
-    width: 80%;
-}
 
 .fecha{
 	display: flex;
