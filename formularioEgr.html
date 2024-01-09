@@ -17,9 +17,12 @@
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <header class="main-color-degraded p-3">
-        <h1 class="titulo">Mi Chaucherita</h1>
-        <a href="configuracion.html"><i class="fa-solid fa-gear titulo"></i></a>
+    <header class="p-3">
+        <a href="index.html" class="text-decoration-none"><h1 class="titulo">Mi Chaucherita</h1></a>
+        <div>
+            <a href="index.html" class="mx-3"><i class="fa-solid fa-house titulo"></i></a>
+            <a href="configuracion.html" class="mx-3"><i class="fa-solid fa-gear titulo"></i></a>
+        </div>
     </header>
 
     <div class="container">
@@ -27,7 +30,7 @@
             <div class="card card-80-percent mt-5">
                 <div class="configuracion">
                     <h2 class="subtitulo">Cuenta: Banco</h2>
-                    <p>Registrar un egreso </p>
+                    <p class="normal">Registrar un egreso </p>
                     <div>
                         <form class="mx-auto my-5 text-center">
                             <div class="container text-center">
@@ -35,7 +38,7 @@
 
 
                             <div class="form-group row mb-3">
-                                <label for="valor" class="col-md-5 col-form-label text-md-end text-sm-start">Valor: $</label>
+                                <label for="valor" class="normal col-md-5 col-form-label text-md-end text-sm-start">Valor: $</label>
                                 <div class="col-md-3">
                                     <input type="text" id="valor" name="valor" class="form-control" style="width: 100%;"
                                         placeholder="Ingresa el valor" required>
@@ -43,7 +46,7 @@
                             </div>
 
                             <div class="form-group row mb-3">
-                                <label for="categoria" class="col-md-5 col-form-label text-md-end text-sm-start">Categoría:</label>
+                                <label for="categoria" class="normal col-md-5 col-form-label text-md-end text-sm-start">Categoría:</label>
                                 <div class="col-md-3">
                                     <select id="categoria" name="categoria" class="form-control" style="width: 100%;">
                                         <option value="option1">Seleccionar</option>
@@ -61,14 +64,14 @@
                             </div>
 
                             <div class="form-group row mb-3">
-                                <label for="fecha" class="col-md-5 col-form-label text-md-end text-sm-start">Fecha:</label>
+                                <label for="fecha" class="normal col-md-5 col-form-label text-md-end text-sm-start">Fecha:</label>
                                 <div class="col-md-3">
                                     <input type="date" id="fecha" name="fecha" class="form-control text-right" style="width: 100%;">
                                 </div>
                             </div>
 
                             <div class="form-group row mb-4">
-                                <label for="concepto" class="col-md-5 col-form-label text-md-end text-sm-start">Concepto:</label>
+                                <label for="concepto" class="normal col-md-5 col-form-label text-md-end text-sm-start">Concepto:</label>
                                 <div class="col-md-3">
                                     <textarea id="concepto" name="concepto" class="form-control" rows="3" style="width: 100%;"
                                         placeholder=""></textarea>
@@ -79,8 +82,8 @@
                             <div class="space-below-form">
                                 <div class="form-group">
                                     <div class="col-md-6 mx-auto">
-                                        <button id="guardarBtn" type="button" class="btn btn-azul" onclick="guardar()">Guardar</button>
-                                        <button id="cancelarBtn" type="button" class="btn btn-secondary btn-violetaOscuro" onclick="cancelar()">Cancelar</button>
+                                        <button id="guardarBtn" type="button" class="btn btn-azul normal white_letter"  onclick="guardar()">Guardar</button>
+                                        <button id="cancelarBtn" type="button" class="btn btn-secondary btn-violetaOscuro normal white_letter"  onclick="cancelar()">Cancelar</button>
                                     </div>
                                 </div>
                             </div>

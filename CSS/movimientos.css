@@ -153,3 +153,8 @@ table caption {
     --bs-btn-disabled-bg: #3b89ff; /* Color personalizado */
     --bs-btn-disabled-border-color: #3b89ff; /* Color personalizado */
 }
+
+.btn_border{
+	border-top: solid #5e76f8 !important; 
+	border-radius: 15px !important;
+}
