@@ -1,156 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet prefetch'
-      href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link rel='stylesheet prefetch'
-      href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd.table.min.css'>
-    <script src="https://kit.fontawesome.com/58f29931b3.js"
-      crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" href="CSS/movimientos.css">
-    <title>Movimientos</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd.table.min.css'>  <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/index.css">
+  <link rel="stylesheet" href="CSS/movimientos.css">
+  <script src="https://kit.fontawesome.com/58f29931b3.js" crossorigin="anonymous"></script>
+  <title>Movimientos</title>
 
-  </head>
+</head>
 
-  <body>
-    <script>src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"</script>
-    <header class="p-4">
-      <a href="index.html" class="text-decoration-none"><h1 class="titulo">Mi Chaucherita</h1></a>
-      <div>
-          <a href="index.html" class="mx-3"><i class="fa-solid fa-house titulo"></i></a>
-          <a href="configuracion.html" class="mx-3"><i class="fa-solid fa-gear titulo"></i></a>
-      </div>
+
+<body class="min-vh-100 d-flex flex-column">
+  <script>src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"</script>
+  <header class="p-4">
+    <a href="index.html" class="text-decoration-none">
+      <h1 class="titulo">Mi Chaucherita</h1>
+    </a>
+    <div>
+      <a href="index.html" class="mx-3"><i class="fa-solid fa-house titulo"></i></a>
+      <a href="configuracion.html" class="mx-3"><i class="fa-solid fa-gear titulo"></i></a>
+    </div>
   </header>
 
-    <div>
-      <main>
-        <div class="card card-80-percent movimiento row">
-          <h2 class="subtitulo">Movimientos de Banco</h2>
+  <main class="container flex-grow-1 d-flex align-items-center justify-content-center">
+    <div class="card card-80-percent row">
+      <h2 class="subtitulo">Movimientos de Banco</h2>
 
-          <div class="card-body border-degraded d-flex justify-content-around col-7 col-sm-4 col-md-3 mx-auto border btn_border">
-            <ul class="list-unstyled d-flex justify-content-around m-0 ">
-                <li class="mx-4"><a href="formularioIng.html"><i class="fa-solid fa-arrow-up text-success button-account"></i></a></li>
-                <li class="mx-4"><a href="formularioEgr.html"><i class="fa-solid fa-arrow-down text-danger button-account"></i></a></li>
-                <li class="mx-4"><a href="formularioTrans.html"><i class="fa-solid fa-arrow-right-arrow-left button-account"></i></a></li>
-            </ul>
+      <div
+        class="card-body border-degraded d-flex justify-content-around col-7 col-sm-4 col-md-3 mx-auto border btn_border">
+        <ul class="list-unstyled d-flex justify-content-around m-0">
+          <li class="mx-4"><a href="formularioIng.html"><i
+                class="fa-solid fa-arrow-up text-success button-account"></i></a></li>
+          <li class="mx-4"><a href="formularioEgr.html"><i
+                class="fa-solid fa-arrow-down text-danger button-account"></i></a></li>
+          <li class="mx-4"><a href="formularioTrans.html"><i
+                class="fa-solid fa-arrow-right-arrow-left button-account"></i></a></li>
+        </ul>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="fecha col-6 col-md-5 row mx-auto">
+        <p class="col-6 col-md-6 normal">Fecha:</p>
+        <input type="month" class="col-8 col-md-6">
+      </div>
+
+      <br>
+
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="col-10">
+          <table class="table-bordered table-hover">
+            <thead class="text-header-table main-color-degraded">
+              <tr>
+                <th class="text-center text-white">Número</th>
+                <th data-priority="1" class="text-center text-white">Nombre</th>
+                <th data-priority="2" class="text-center text-white">Categoria</th>
+                <th data-priority="3" class="text-center text-white">Fecha</th>
+                <th data-priority="4" class="text-center text-white">Monto</th>
+              </tr>
+            </thead>
+            <tbody class="text-table">
+              <tr>
+                <td>1</td>
+                <td>Banco1</td>
+                <td>Comida</td>
+                <td>28/02/2023</td>
+                <td>-100</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Banco2</td>
+                <td>Entretenimiento</td>
+                <td>16/10/2023</td>
+                <td>-300</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Banco3</td>
+                <td>Trabajo</td>
+                <td>09/09/2023</td>
+                <td>+1000</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Banco4</td>
+                <td>Universidad</td>
+                <td>10/09/2023</td>
+                <td>-1000</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Banco5</td>
+                <td>Regalos</td>
+                <td>09/09/2023</td>
+                <td>-96</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Banco6</td>
+                <td>Slud</td>
+                <td>09/09/2023</td>
+                <td>-450</td>
+              </tr>
+
+            </tbody>
+
+          </table>
         </div>
-        
-          <br>
-          <br>
+      </div>
 
-          <div>
-            <div class="col-lg-1"></div>
-            <div class="fecha col-12 col-md-5 row">
-              <p class="h4 col-4 col-md-5 col-lg-3 normal">Fecha:</p>
-              <input type="month" class="col-8 col-md-6">
-            </div>
-          </div>
-
-          <br>
-
-          <div class="container mx-auto">
-            <div class="d-flex justify-content-center align-items-center">
-              <div class="col-10">
-                <div class="table-responsive">
-                  <table class=" table table-bordered table-hover">
-                    <thead class="main-color-degraded">
-                      <tr>
-                        <th class="text-center col-md-1 normal white_letter">Número</th>
-                        <th data-priority="1"
-                          class="text-center col-md-1 normal white_letter">Nombre</th>
-                        <th data-priority="2"
-                          class="text-center col-md-2 normal white_letter">Categoria</th>
-                        <th data-priority="3"
-                          class="text-center col-md-2 normal white_letter">Fecha</th>
-                        <th data-priority="4"
-                          class="text-center col-md-2 normal white_letter">Monto</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td class="normal">1</td>
-                        <td class="normal">Banco1</td>
-                        <td class="normal">Comida</td>
-                        <td class="normal">28/02/2023</td>
-                        <td class="normal">-100</td>
-                      </tr>
-                      <tr>
-                        <td class="normal">2</td>
-                        <td class="normal">Banco2</td>
-                        <td class="normal">Entretenimiento</td>
-                        <td class="normal">16/10/2023</td>
-                        <td class="normal">-300</td>
-                      </tr>
-                      <tr>
-                        <td class="normal">3</td>
-                        <td class="normal">Banco3</td>
-                        <td class="normal">Trabajo</td>
-                        <td class="normal">09/09/2023</td>
-                        <td class="normal">+1000</td>
-                      </tr>
-                      <tr>
-                        <td class="normal">4</td>
-                        <td class="normal">Banco4</td>
-                        <td class="normal">Universidad</td>
-                        <td class="normal">10/09/2023</td>
-                        <td class="normal">-1000</td>
-                      </tr>
-                      <tr>
-                        <td class="normal">5</td>
-                        <td class="normal">Banco5</td>
-                        <td class="normal">Regalos</td>
-                        <td class="normal">09/09/2023</td>
-                        <td class="normal">-96</td>
-                      </tr>
-                      <tr>
-                        <td class="normal">6</td>
-                        <td class="normal">Banco6</td>
-                        <td class="normal">Slud</td>
-                        <td class="normal">09/09/2023</td>
-                        <td class="normal">-450</td>
-                      </tr>
-
-                    </tbody>
-
-                  </table>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-center">
-            <div class="d-flex flex-column align-items-center p-3 return">
-              <a href="index.html"><i class="fa-solid fa-circle-left"></i></a>
-              <p class="normal">Regresar</p>
-            </div>
-          </div>
-
+      <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column align-items-center p-3 return">
+          <a href="index.html"><i class="fa-solid fa-circle-left"></i></a>
+          <p class="normal">Regresar</p>
         </div>
+      </div>
 
-      </main>
     </div>
 
-    <script
-      src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script
-      src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js'></script>
-    <script
-      src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd-table-patterns.js'></script>
-    <script>
+  </main>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js'></script>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/rwd-table-patterns.js'></script>
+  <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Cambiar el texto del botón de enfoque
       var focusButton = document.querySelector('.btn-group.focus-btn-group .btn-default');
@@ -170,6 +153,6 @@
     });
   </script>
 
-  </body>
+</body>
 
 </html>
