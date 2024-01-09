@@ -34,7 +34,7 @@
 
         <div class="card card-80-percent">
 
-            <div class="card-header subtitulo text-center">Registrar Nueva Categoría</div>
+            <div class="card-header subtitulo text-center">Crear Nueva Categoría</div>
 
             <div class="card-body">
                 <form action="" method="post" class="my-4 mx-auto text-center">
@@ -60,11 +60,18 @@
 
                     <!--Botones-->
                     <div class="col-md-6 mx-auto">
-                        <button type="submit" class="btn btn-azul normal white_letter">
-                            Crear Categoría
+                        <button type="button" class="btn btn-azul normal white_letter" onclick="crear()">
+                            Crear
                         </button>
                         <a name="" id="" class="btn btn-violetaOscuro normal white_letter" href="categorias.html" role="button">Cancelar</a>
                     </div>
+
+                    <script>
+                        function crear() {
+                            alert("Creado");
+                            window.location.href = 'categorias.html';
+                        }
+                    </script>
 
                 </form>
             </div>
