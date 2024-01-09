@@ -50,8 +50,9 @@ thead {
 	
 }
 .fecha p{
-    margin-right: 15px;
-    margin-bottom: 0px;
+    margin: 0px;
+	padding: 0px;
+	padding-left: 20px;
 }
 
 tbody {
